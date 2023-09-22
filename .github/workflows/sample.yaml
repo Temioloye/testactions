@@ -10,3 +10,7 @@ jobs:
         uses: actions/checkout@v3
       - name: echo string
         run: echo "Hello World"
+      - name: multi string
+        run: |
+          node -v
+          npm -v
